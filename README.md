@@ -20,6 +20,7 @@ Utilisez ensuite NPM pour installer Typescript :
 `npm install typescript --save-dev`
 
 Que signifie l'option `--save-dev` ?
+On va sauvegarder le package typescript dans les dépendances du projet grâce au fichier package json
 
 Initialisez ensuite le fichier de configuration `tsconfig.json` :
 
@@ -38,6 +39,7 @@ Effectuez une première compilation de votre code via :
 `npx tsc`
  
 Que signifie cette commande ?
+Cette commande transpile de code typescript en javascipt (avec vérification) il y a création d'un fichier javascript dans le build
 Ouvrez le fichier `build/index.js` généré, assurez-vous qu'il est bien conforme à votre code initial.
 
 
